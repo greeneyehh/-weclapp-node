@@ -19,6 +19,13 @@ module.exports = {
 	async createSalesInvoice(fetch, body) {
 		return fetch('salesInvoice', {method: 'POST', body})
 	},
+	/**
+	 * @param CustomerNumber
+	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
+	 */
+	async getSalesInvoiceByCustomerNumber(fetch, CustomerNumber) {
+		return fetch(`salesInvoice?customerNumber-eq=${CustomerNumber}`, {CustomerNumber})
+	},
 
 	/**
 	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
