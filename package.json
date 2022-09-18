@@ -1,5 +1,5 @@
 {
-	"name": "@weclapp/connect",
+	"name": "@weclapp2/connect",
 	"version": "0.2.1",
 	"description": "weclapp REST API client for nodejs",
 	"main": "src/app.js",
@@ -8,7 +8,7 @@
 		"lint": "eslint ./src/*.js",
 		"lint:fix": "eslint --fix --env browser,node ./src/*.js"
 	},
-	"author": "weclapp",
+	"author": "weclapp mode by green_eye",
 	"license": "MIT",
 	"engines": {
 		"node": ">=8.0.0"
@@ -24,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ertanoe/weclapp-connect.git"
+		"url": "git+https://github.com/greeneyehh/weclapp-node.git"
 	},
 	"keywords": [
 		"weclapp",
@@ -32,7 +32,7 @@
 		"partner portal connect"
 	],
 	"bugs": {
-		"url": "https://github.com/ertanoe/weclapp-connect/issues"
+		"url": "https://github.com/greeneyehh/weclapp-node/issues"
 	},
-	"homepage": "https://github.com/ertanoe/weclapp-connect#readme"
+	"homepage": "https://github.com/greeneyehh/weclapp-node#readme"
 }
