@@ -24,7 +24,7 @@ module.exports = {
 	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
 	 */
 	async getSalesInvoiceByCustomerNumber(fetch, CustomerNumber) {
-		return fetch(`salesInvoice?customerNumber-eq=${CustomerNumber}`, {CustomerNumber})
+		return fetch(`salesInvoice?customerNumber-eq=${CustomerNumber}&sort=-lastModifiedDate`, {CustomerNumber})
 	},
 
 	/**
