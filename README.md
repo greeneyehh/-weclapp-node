@@ -279,6 +279,7 @@ async getQuotationCount(fetch)
 async getQuotations(fetch, {page, pageSize, sort})
 async getSalesChannel(fetch)
 async getSalesInvoiceById(fetch, id)
+async getSalesInvoiceByCustomerNumber(fetch, CustomerNumber)
 async getSalesInvoiceCount(fetch)
 async getSalesInvoices(fetch, {page, pageSize, sort})
 async getSalesOrderById(fetch, id)
@@ -386,5 +387,6 @@ async uploadArticleImage(fetch, {id, name, mainImage}, body)
 
 ## License
 This project is available under the [MIT](https://choosealicense.com/licenses/mit/) license.
-#   - w e c l a p p - n o d e  
- 
+#� �-�w�e�c�l�a�p�p�-�n�o�d�e�
+�
+�
