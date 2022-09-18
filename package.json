@@ -1,0 +1,38 @@
+{
+	"name": "@weclapp/connect",
+	"version": "0.2.1",
+	"description": "weclapp REST API client for nodejs",
+	"main": "src/app.js",
+	"scripts": {
+		"test": "mocha --timeout 5000",
+		"lint": "eslint ./src/*.js",
+		"lint:fix": "eslint --fix --env browser,node ./src/*.js"
+	},
+	"author": "weclapp",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"devDependencies": {
+		"@weclapp/eslint-config": "^0.1.0",
+		"chai": "^4.2.0",
+		"eslint": "^5.16.0",
+		"mocha": "^6.1.2"
+	},
+	"dependencies": {
+		"node-fetch": "^2.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ertanoe/weclapp-connect.git"
+	},
+	"keywords": [
+		"weclapp",
+		"weclapp-connect",
+		"partner portal connect"
+	],
+	"bugs": {
+		"url": "https://github.com/ertanoe/weclapp-connect/issues"
+	},
+	"homepage": "https://github.com/ertanoe/weclapp-connect#readme"
+}
