@@ -48,7 +48,7 @@ module.exports = {
 	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
 	 */
 	async getCustomerByCustomerNumber(fetch, CustomerNumber) {
-		return fetch(buildUrl(`customer?customerNumber-eq=${CustomerNumber}`, {CustomerNumber}))
+		return fetch(`customer?customerNumber-eq=${CustomerNumber}`, {CustomerNumber})
 	},
 	
 	/**
