@@ -44,6 +44,14 @@ module.exports = {
 	},
 
 	/**
+	 * @param CustomerNumber
+	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
+	 */
+	async getCustomerByCustomerNumber(fetch, CustomerNumber) {
+		return fetch(`customer?customerNumber-eq=${CustomerNumber}`, {CustomerNumber})
+	},
+	
+	/**
 	 * @param id
 	 * @param body
 	 * @returns {Promise<*|Promise<*>|Promise|Promise<Response>|never>}
